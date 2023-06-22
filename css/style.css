@@ -469,13 +469,15 @@ padding: 24px 0 24px;
   gap: 40px;
 }
 .piktures>.container>.list-1{
+
 display: flex;
 justify-content: center;
 gap: 24px;
 margin-bottom: 72px;
 
 }
-.piktures.container>.button-list{
+.button-list {
+  
   padding: 12px 24px 12px;
   border: 1px solid var(--background-picture-1);
   border-radius: 4px;
@@ -496,6 +498,10 @@ padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
 margin-bottom: 8px;
+}
+.pictures{
+  padding: 96px 0 120px 0;
+
 }
 .team>.container>.list{
   gap: 24px; 
