@@ -41,6 +41,9 @@ ol {
   margin-bottom: 0;
   padding-left: 0;
 }
+img{
+  display: block;
+}
 
 .effective{ 
 box-sizing: content-box;
@@ -215,7 +218,7 @@ footer{
  
 
 }
-header>nav>div>a {
+header>div>nav>a {
   font-family: "Raleway",sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -224,7 +227,7 @@ header>nav>div>a {
   text-transform: uppercase;
   color:var(--button-stail-color-4--web-1);
   text-decoration: none;
-
+  margin-right: 76px
 }
 
 .asaide {
@@ -232,13 +235,14 @@ header>nav>div>a {
 
 }
 .nav-list{
+ 
   list-style: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--webstudio-backround);
-
+  
 }
 .link{
   text-decoration: none;
@@ -251,6 +255,13 @@ header>nav>div>a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+nav>div>ul{
+  margin-right: 76px;
+  display: flex;
+  gap: 40px;
+  margin-right: 40px;
+  margin-right: 0;
 }
 nav>ul>li{
   font-size: 16px;
@@ -389,12 +400,26 @@ padding-left: 156px;
     padding-top: 24px;
  
 }
-.arizona>ul
+.container>ul
 {
  display: flex;
   gap: 54px;
   justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: baseline;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+
+}
+.arizona-hed{
+border-bottom: 1px solid #e7e9fc
+}
+.arizona-nav{
+  display: flex;
+  align-items: center;
+}
+.arizona-nav>.link{
+
 }
