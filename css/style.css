@@ -411,6 +411,7 @@ text-decoration: none;
 .staile-button:focus {
   color: var(--button-stail-color-3);
   background-color: var(--button-stail-color-2);
+  border: 1px solid transparent;
 }
 
 
@@ -421,14 +422,23 @@ text-decoration: none;
   gap: 24px;
   margin-bottom: 72px;
 }
-
-
-
-
-
-
-
-
+.piktures>.container{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+  
+}
+.list-2{
+  display: flex;
+    column-gap: 24px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+    row-gap: 48px;
+    width: calc((100% - 48px) / 3);
+}
 
 
 
