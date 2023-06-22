@@ -182,6 +182,10 @@ address>ul>li>.link {
   letter-spacing: 0.02em;
   color: var(--fazer-litl-text);
   text-decoration: none;
+
+}
+address>.list{
+  gap: 40px
 }
 
 
@@ -241,7 +245,7 @@ padding: 16px 32px;
   gap: 24px;
 
 }
-.pikture>.container>.list>.kontakt-list {
+.picture>ul>li {
   flex-basis: calc((100% - 48px) / 3);
 }
 .non-button {
