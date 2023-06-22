@@ -307,7 +307,8 @@ padding-left: 10px;
 padding-top: 120px;
 padding-bottom: 0px;
 }
-.twha {
+.twha{
+  visibility: hidden;
   margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
@@ -386,7 +387,9 @@ text-decoration: none;
 
 
 
-
+.pictures>.container>h1{
+  visibility: hidden;
+}
 .piktures>.container>.list-start>.button-list {
 
   list-style: none;
@@ -534,8 +537,11 @@ text-decoration: none;
    text-transform: uppercase;
    color: var(--button-stail-color-4--web-1);
    text-decoration: none;
+ 
 
-
+ }
+ footer>div>.link{
+  display: inline-block;
  }
 
  .footer-link {
