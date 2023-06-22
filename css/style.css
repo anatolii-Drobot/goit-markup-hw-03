@@ -69,6 +69,9 @@ padding: 16px 32px;
     padding-left: 152px;
     padding-top: 120px;
 }
+.picture{
+  padding: 96px 0 120px 0;
+}
 .picture>ul{
   display: flex;
   gap: 24px;
@@ -391,32 +394,14 @@ header{
   max-width: 1440px;
   max-height: 72px;
 }
-.header-bar>ul{
-display: flex;
-gap: 24px;
-padding-left: 380px;
-}
+
 .kontakt-head>.list{
   display: flex;
   align-items: end;
 }
-.compani-2>ul{
-  display: flex;
- flex-wrap: wrap;
- gap: 24px;
-padding-left: 156px;
-}
-.button-list>ul{
-   display: flex;
-   flex-direction: row-reverse;
-    justify-content: center;
-    gap: 24px;
-    padding-left: 156px;
-    padding-right: 145px;
-    padding-bottom: 24px;
-    padding-top: 24px;
- 
-}
+
+
+
 .container{
   display: flex;
   width: 1158px;
@@ -441,6 +426,8 @@ border-bottom: 1px solid #e7e9fc
   display: flex;
   align-items: center;
 }
-.arizona-nav>.link{
-
+.arizona-nav>.list{
+display: flex;
+gap: 40px;
+padding: 24px 0 24px;
 }
