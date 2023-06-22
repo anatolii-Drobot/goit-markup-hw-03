@@ -383,7 +383,8 @@ text-decoration: none;
 
 
 
-.button-list {
+.piktures>.container>.list-1>.button-list {
+
   list-style: none;
   padding: 12px 24px 12px;
   border: 1px solid var(--background-picture-1);
@@ -407,17 +408,36 @@ text-decoration: none;
   color: var(--button-stail-color-3);
   background-color: var(--button-stail-color-2);
 }
-.piktures>.container>.list-1 {
+
+
+
+.piktures>.container>.list-1>li {
   display: flex;
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
 }
-.piktures-list>a>.list-3 {
+
+
+
+
+
+
+
+
+
+
+
+.pictures>.container>.list-2>.piktures-list{
+  display: flex;
+  column-gap: 24px;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
+  row-gap: 48px;
+  width: calc((100% - 48px) / 3);
+  
 }
 .h-2-teg-portfolio {
   font-weight: 500;
