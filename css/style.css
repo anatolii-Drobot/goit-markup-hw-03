@@ -47,7 +47,7 @@ ol {
 
 
 
-.header>div>nav>ul>li>.link {
+nav>.list>.link {
   text-transform: none;
   padding: 24px 0 24px;
 }
@@ -96,6 +96,28 @@ header>nav>ul>li .link {
 
 
 
+
+
+.arizona-hed {
+  border-bottom: 1px solid #e7e9fc;
+  display: block;
+  min-width: 1440px;
+  max-height: 72px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.arizona-hed>.container{
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px,
+}
+
+.arizona-nav {
+  display: flex;
+  align-items: center;
+}
+
 header>div>nav>a {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -109,52 +131,38 @@ header>div>nav>a {
   padding-bottom: 24px;
   padding-top: 24px;
 }
-
-
-
-
-
-
-
-
-
-.arizona-hed {
-  border-bottom: 1px solid #e7e9fc;
-  display: block;
-  min-width: 1440px;
-  max-height: 72px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-
-
-
-
-
-
-
-.nav-bar {
-  height: inherit;
+/*Навігація*/
+.arizona-nav>.list {
   display: flex;
-  justify-content:space-between ;
-  align-items: center;
+  gap: 60px;
+  padding: 0px;
+  
 }
+
+.container>.kontakt-head>.list {
+  display: flex;
+  gap: 24px;
+  align-items: end;
+  padding-top: 24px;
+  padding-left: 250px;
+
+}
+.nav-list>.link {
+  display: flex;
+  gap: 40px;
+  padding: 0px;
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--webstudio-backround);}
+
+
 
 
 /*Навігація*/
 
-.arizona-nav {
- width: 1440px;
- height: 74px;
-}
-
-..arizona-nav>.list {
-  display: flex;
-  gap: 40px;
-  padding: 24px 0 24px; 
-}
 
 
 .arizona-nav>.list>.nav-list {
@@ -170,18 +178,8 @@ header>div>nav>a {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.nav-list {
-  display: flex;
-  gap: 40px;
-  padding: 24px 0 24px;
-  list-style: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--webstudio-backround);
 
-}
+
 nav>ul {
   margin-right: 76px;
   display: flex;
@@ -227,15 +225,7 @@ address>ul>li>.link {
 
 
 
-.container>.kontakt-head>.list>.kontakt-list {
-  display: flex;
-  gap: 20px;
-  
-  justify-content: end;
-  padding-bottom: auto;
-  padding-top: auto;
-  
-}
+
 
 
 address>ul>li>.link:hover,
