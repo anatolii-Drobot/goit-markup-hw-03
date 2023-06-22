@@ -110,7 +110,7 @@ header>nav>ul>li .link {
   display: flex;
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px 0 15px,
+  padding: 0 15px ;
 }
 
 .arizona-nav {
@@ -134,7 +134,7 @@ header>div>nav>a {
 /*Навігація*/
 .arizona-nav>.list {
   display: flex;
-  gap: 60px;
+  gap: 40px;
   padding: 0px;
   
 }
@@ -142,6 +142,7 @@ header>div>nav>a {
 .container>.kontakt-head>.list {
   display: flex;
   gap: 24px;
+  gap: 40px;
   align-items: end;
   padding-top: 24px;
   padding-left: 250px;
@@ -150,7 +151,7 @@ header>div>nav>a {
 .nav-list>.link {
   display: flex;
   gap: 40px;
-  padding: 0px;
+  padding: 24px 0;
   list-style: none;
   font-weight: 500;
   font-size: 16px;
