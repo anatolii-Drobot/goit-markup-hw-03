@@ -185,6 +185,7 @@ color: var(--webstudio-backround);
 
 }
 .twha {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -193,6 +194,8 @@ color: var(--webstudio-backround);
   color: var(--webstudio-backround);
 }
 .twha .list{
+  display: flex;
+  gap: 24px;
   list-style: none
 }
 .team{
@@ -211,6 +214,7 @@ list-style: none;
   background-color: var(--button-stail-color-3);
 }
 .footer-text{
+  max-width: 264px;
   line-height: 1.5;
   color: var(--button-stail-color);
   letter-spacing: 0.02em
@@ -230,7 +234,14 @@ footer>a{
 
 
 }
+.footer-link{
+  padding: 100px 0 100px;
 
+}
+.footer-link>.container>link{
+margin-bottom: 16px;
+
+}
 footer{
 
  height: 312px;
@@ -322,6 +333,7 @@ color: var(--webstudio-backround);
 color:var(--button-stail-color-2);
 }
 .kontakt-list{
+  flex-basis: calc((100% - 48px) / 3);
   list-style: none;
 }
 header>ul>li .link{
@@ -438,6 +450,10 @@ border-bottom: 1px solid #e7e9fc
 display: flex;
 gap: 40px;
 padding: 24px 0 24px;
+}
+.arizona-nav>.list>.nav-list{
+  padding: 24px 0 24px;
+  gap: 40px;
 }
 .piktures>.container>.list-1{
 display: flex;
