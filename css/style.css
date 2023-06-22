@@ -156,6 +156,7 @@ text-decoration: none;
   background-color: var(--button-stail-color-3);
 }
 .strategy  {
+  
 padding: 120px 0 120px;
 font-weight: 500;
 font-size: 20px;
@@ -185,6 +186,10 @@ color: var(--webstudio-backround);
 }
 .team{
 background-color:var(--button-stail-color);
+padding: 120px 0 120px;
+}
+.strategy-team{
+  margin-bottom: 72px;
 }
 
 
@@ -227,10 +232,7 @@ footer{
  
 
 }
-.arizona-hed {
-border-bottom: 1px solid #e7e9fc;
 
-}
 header>div>nav>a {
   font-family: "Raleway",sans-serif;
   font-weight: 800;
@@ -357,7 +359,9 @@ color: var(--button-stail-color);
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--webstudio-backround);
+    margin-bottom: 72px;
 }
+
 .our-team{
   font-size: 16px;
     line-height: 1.5;
@@ -427,7 +431,7 @@ padding-left: 156px;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: baseline;
-
+  
 
 }
 .arizona-hed{
