@@ -85,6 +85,8 @@ padding-bottom: 0px;
 }
 
 .effective {
+  padding: 188px 0 188px;
+
   background-color:var(--webstudio-backround);
 }
 .team>ul{
@@ -95,6 +97,7 @@ padding-left: 152px;
 margin-bottom: 120px;
 }
 .effective-non{
+max-width: 496px;
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
@@ -102,6 +105,11 @@ letter-spacing: 0.02em;
 color: var(--button-stail-color-3);
 }
 .non-button{
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 background-color:var(--button-stail-color-4--web-1);
 font-family: "Roboto", sans-serif;
 font-weight: 500;
@@ -148,6 +156,7 @@ text-decoration: none;
   background-color: var(--button-stail-color-3);
 }
 .strategy  {
+padding: 120px 0 120px;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -216,6 +225,10 @@ footer{
  padding-right: 0px;
  padding-bottom: 100px;
  
+
+}
+.arizona-hed {
+border-bottom: 1px solid #e7e9fc;
 
 }
 header>div>nav>a {
@@ -400,6 +413,12 @@ padding-left: 156px;
     padding-top: 24px;
  
 }
+.container{
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
 .container>ul
 {
  display: flex;
@@ -408,9 +427,7 @@ padding-left: 156px;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: baseline;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px 0 15px;
+
 
 }
 .arizona-hed{
