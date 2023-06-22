@@ -400,6 +400,10 @@ text-decoration: none;
   color: var(--button-stail-color-4--web-1);
   background-color: var(--button-stail-color);
   cursor: pointer;
+  list-style: none;
+  padding: 12px 24px 12px;
+  border: 1px solid var(--background-picture-1);
+  border-radius: 4px;
 }
 
 
@@ -437,7 +441,7 @@ text-decoration: none;
   margin-bottom: 8px;
   row-gap: 48px;
   width: calc((100% - 48px) / 3);
-  
+
 }
 .h-2-teg-portfolio {
   font-weight: 500;
