@@ -401,7 +401,7 @@ border-top: none;
 
 
 
-.strategy>ul{
+....strategy>ul{
   display: flex;
     gap: 24px;
     padding-left: 152px;
@@ -602,12 +602,7 @@ text-decoration: none;
 
 
 
-..container {
-  display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px 0 15px;
-}
+
 .container>ul {
   display: flex;
   gap: 54px;
