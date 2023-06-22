@@ -155,8 +155,15 @@ text-decoration: none;
 
 }
 .lorem-list {
+  width: calc((100% - 72px) / 4);
   list-style: none;
   background-color: var(--button-stail-color-3);
+  border-radius: 0px 0px 4px 4px;
+
+}
+
+.team-2{
+padding: 32px 16px 32px;
 }
 .strategy  {
   
@@ -169,6 +176,7 @@ color: var(--webstudio-backround);
 }
 
 .our{
+  text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -459,6 +467,12 @@ padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
 margin-bottom: 8px;
-
+}
+.team>.container>.list{
+  gap: 24px; 
+}
+.strategy-name{
+text-align: center;
+margin-bottom: 8px;
 
 }
