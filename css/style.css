@@ -383,7 +383,7 @@ text-decoration: none;
 
 
 
-.piktures>.container>.list-1>.button-list {
+.piktures>.container>.list-start>.button-list {
 
   list-style: none;
   padding: 12px 24px 12px;
@@ -416,7 +416,7 @@ text-decoration: none;
 
 
 
-.piktures>.container>.list-1>li {
+.piktures>.container>.list-start>li {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -427,9 +427,13 @@ text-decoration: none;
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
-  
+
 }
-.list-2{
+.list-start{
+  display: flex;
+  margin-bottom: 72px;
+}
+.list-finish{
   display: flex;
     column-gap: 24px;
     padding: 32px 16px;
@@ -438,11 +442,13 @@ text-decoration: none;
     margin-bottom: 8px;
     row-gap: 48px;
     width: calc((100% - 48px) / 3);
+   flex-wrap: wrap;
+   
 }
 
 
 
-.pictures>.container>.list-2>.piktures-list{
+.pictures>.container>.list-finish>.piktures-list{
   display: flex;
   column-gap: 24px;
   padding: 32px 16px;
@@ -496,13 +502,6 @@ text-decoration: none;
   width: calc((100% - 48px) / 3);
 }
 
-.piktures>.container>.list-2 {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-
-}
 
 
 
