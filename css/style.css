@@ -431,3 +431,34 @@ display: flex;
 gap: 40px;
 padding: 24px 0 24px;
 }
+.piktures>.container>.list-1{
+display: flex;
+justify-content: center;
+gap: 24px;
+margin-bottom: 72px;
+
+}
+.piktures.container>.button-list{
+  padding: 12px 24px 12px;
+  border: 1px solid var(--background-picture-1);
+  border-radius: 4px;
+
+}
+.piktures.container>.list-2{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;;
+  row-gap: 48px;
+
+}
+.piktures.container>.list-2>.piktures-list{
+  width: calc((100% - 48px) / 3);
+}
+.piktures-list>a>.list-3{
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+margin-bottom: 8px;
+
+
+}
