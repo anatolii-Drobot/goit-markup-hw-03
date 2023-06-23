@@ -528,6 +528,7 @@ padding-bottom: 0px;
 
 .piktures-list{
 list-style: none;
+width: calc((100% - 48px) / 3);
 }
 /*.piktures-link{
 text-decoration: none;
@@ -541,9 +542,7 @@ text-decoration: none;
 
 /* Тіло Портфоліо main */
 
-.piktures>.container>.list-finish>.piktures-list{
-  width: calc((100% - 48px) / 3);
-}
+
 
 
 .piktures>.container>.list-start>.button-list {
