@@ -395,17 +395,18 @@ padding: 16px 32px;
   flex-wrap: wrap;
 
 }
-.team>.container>.list {
+.team>.container>.list>.lorem-list {
 
   max-width: fit-content;
   display: flex;
+  flex-basis: calc((100% - 72px) / 4);
   gap: 24px;
   padding-top: 120px;
   padding-left: 152px;
   border-radius: 0px 0px 4px 4px;
   list-style: none;
 }
- .team>.container>.list>.lorem-list {
+ ..team>.container>.lorem-list {
   width: calc((100% - 72px) / 4);
   list-style: none;
   background-color: var(--button-stail-color-3);
@@ -413,7 +414,7 @@ padding: 16px 32px;
 
 }
 
-.list-finish>.piktures-list {
+..list-finish>.piktures-list {
   width: calc((100% - 48px) / 3);
 }
 
