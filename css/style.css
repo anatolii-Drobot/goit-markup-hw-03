@@ -426,10 +426,18 @@ flex-basis: calc((100% - 3 * 24px) / 4);
 
 
 
+.strategy>.container>.list>.orem-list{
+  display: flex;
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
+
 .picture>.container>.list>.kontakt-list {
   display: flex;
   flex-basis: calc((100% - 48px) / 3);
 }
+
+
 
 
 
