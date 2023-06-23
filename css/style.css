@@ -343,7 +343,9 @@ padding: 16px 32px;
 
 
 
-
+.kontakt-list {
+  list-style: none;
+}
 
 .picture>.container>.list>.kontakt-list {
   display: flex;
@@ -351,7 +353,7 @@ padding: 16px 32px;
 }
 
 
-.strategy>.container>.list>.lorem-list {
+.team>.container>.list>.lorem-list {
   width: calc((100% - 72px) / 4);
   list-style: none;
   background-color: var(--button-stail-color-3);
@@ -442,9 +444,7 @@ padding-bottom: 0px;
   padding-left: 400px;
 }
 
-.kontakt-list {
-  list-style: none;
-}
+
 
 
 .team {
@@ -499,13 +499,6 @@ text-decoration: none;
   border-radius: 4px;
 
 }
-
-
-
-
-
-
-
 
 .staile-button {
   display: flex;
