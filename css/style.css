@@ -42,6 +42,10 @@ ol {
   padding-left: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -246,10 +250,7 @@ address>ul>li>.link:focus {
 
 
 
-img{
-  display: block;
-  max-width: 100%;
-}
+
 
 .effective{ 
 
@@ -528,9 +529,9 @@ padding-bottom: 0px;
   margin-bottom: 8px;
   flex-wrap: wrap;
   list-style: none;
-
+  
 }
-.piktures-list{
+.pictures>.container>.list-finish>.piktures-list>a{
   width: calc((100% - 48px) / 3);
 }
 /*.piktures-link{
