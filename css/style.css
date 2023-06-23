@@ -370,6 +370,7 @@ padding: 16px 32px;
 
 .kontakt-list {
   list-style: none;
+  
 }
 
 
@@ -388,7 +389,7 @@ padding: 16px 32px;
 
 }
 .team>.container>.list {
-
+width: calc((100% - 72px) / 4);
   max-width: fit-content;
   display: flex;
   gap: 24px;
