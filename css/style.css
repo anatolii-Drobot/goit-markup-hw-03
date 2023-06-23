@@ -327,6 +327,7 @@ padding: 16px 32px;
     padding-left: 156px;
     padding-right: 156px;
     list-style: none;
+    border-radius: 0px 0px 4px 4px;
 }
 
 
@@ -426,10 +427,7 @@ flex-basis: calc((100% - 3 * 24px) / 4);
 
 
 
-.strategy>.container>.list>.orem-list{
-  display: flex;
-  flex-basis: calc((100% - 3 * 24px) / 4);
-}
+
 
 
 .picture>.container>.list>.kontakt-list {
