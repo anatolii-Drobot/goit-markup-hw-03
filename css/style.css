@@ -321,13 +321,12 @@ padding: 16px 32px;
 .orem-list{
   
     display: flex;
-    flex-basis: calc((100% - 3 * 24px) / 4);
     gap: 24px;
     justify-content: end;
     padding-left: 156px;
     padding-right: 156px;
     list-style: none;
-    border-radius: 0px 0px 4px 4px;
+   
 }
 
 
@@ -401,7 +400,7 @@ padding: 16px 32px;
   padding: 120px 0 120px;
 
 }
-.lorem-list>.img{
+.lorem-list{
   display: flex;
 flex-basis: calc((100% - 3 * 24px) / 4);
  list-style: none;
