@@ -283,13 +283,15 @@ padding: 16px 32px;
   letter-spacing: 0.02em;
   color: var(--button-stail-color-3);
 }
+
+
+
+
 .strategy {
-  
   margin-left: auto;
-  margin-right: auto;
+    margin-right: auto;
   margin-bottom: 8px;
   padding: 120px 0 120px;
-
 }
 .text-main{
   margin-bottom: 8px;
@@ -298,15 +300,31 @@ padding: 16px 32px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--webstudio-backround);
-  
 }
-.container>.list {
+..container>.list {
+
   display: flex;
+ 
   gap: 24px;
   padding-left: 156px;
   padding-right: 156px;
-  
+  list-style: none;
 }
+.orem-list{
+ 
+    display: flex;
+    flex-basis: calc((100% - 3 * 24px) / 4);
+    gap: 24px;
+    padding-left: 156px;
+    padding-right: 156px;
+    list-style: none;
+}
+
+
+
+
+
+
 
 
 .effective>.container>.non-button {
@@ -330,9 +348,7 @@ padding: 16px 32px;
 .non-button:focus {
   background-color: var(--button-stail-color-2);
 }
-.team>.container>.list {
-  gap: 24px;
-}
+
 .strategy-team {
   font-size: 36px;
   line-height: 1.11;
@@ -370,17 +386,16 @@ padding: 16px 32px;
 
 }
 .team>.container>.list {
-  width: calc((100% - 72px) / 4);
-max-width: fit-content;
+
+  max-width: fit-content;
   display: flex;
   gap: 24px;
   padding-top: 120px;
   padding-left: 152px;
-  margin-bottom: 120px;
   border-radius: 0px 0px 4px 4px;
   list-style: none;
 }
-.lorem-list {
+ .team>.container>.list>.lorem-list {
   width: calc((100% - 72px) / 4);
   list-style: none;
   background-color: var(--button-stail-color-3);
@@ -407,7 +422,7 @@ max-width: fit-content;
 
 
 
-..picture>div>.list {
+.picture>div>.list {
   flex-basis: calc((100% - 48px) / 3);
   display: flex;
   gap: 24px;
@@ -442,13 +457,7 @@ border-top: none;
 
 
 
-...strategy>div>ul{
-  
-  display: flex;
-    gap: 24px;
-    padding-left: 152px;
-    padding-top: 120px;
-}
+
 .picture{
   padding: 96px 0 120px 0;
 }
@@ -605,16 +614,7 @@ text-decoration: none;
 
 
 
-.container>ul {
-  display: flex;
-  gap: 54px;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 24px;
 
-}
 .pictures {
   padding: 96px 0 120px 0;
 
