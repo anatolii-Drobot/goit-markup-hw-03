@@ -426,7 +426,7 @@ flex-basis: calc((100% - 72px) / 4);
   gap: 24px;
   list-style: none
 }
-.picture>.container>.list>.kontakt-list {
+..picture>.container>.list>.kontakt-list {
   display: flex;
   flex-basis: calc((100% - 48px) / 3);
 }
