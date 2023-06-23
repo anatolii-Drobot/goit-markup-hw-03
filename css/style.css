@@ -406,7 +406,7 @@ flex-basis: calc((100% - 72px) / 4);
 }
 
 .team>div>.list {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
   max-width: fit-content;
   display: flex;
   gap: 24px;
@@ -415,12 +415,10 @@ flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   list-style: none;
 }
- .picture>div>.list {
-   flex-basis: calc((100% - 48px) / 3);
-   display: flex;
-   gap: 24px;
-   list-style: none
- }
+.team>.container>.list>.lorem-list{
+  display: flex;
+  flex-basis: calc((100% - 72px) / 4);
+}
 
 
 
@@ -431,8 +429,13 @@ flex-basis: calc((100% - 72px) / 4);
 
 
 
-
-..picture>.container>.list>.kontakt-list {
+.picture>div>.list {
+  flex-basis: calc((100% - 48px) / 3);
+  display: flex;
+  gap: 24px;
+  list-style: none
+}
+.picture>.container>.list>.kontakt-list {
   display: flex;
   flex-basis: calc((100% - 48px) / 3);
 }
