@@ -240,13 +240,6 @@ address>ul>li>.link:focus {
 /* Тіло індексу Main */
 
 
- .visually-hidden{
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1;
-}
 
 img{
   display: block;
@@ -302,21 +295,27 @@ padding: 16px 32px;
   letter-spacing: 0.02em;
   color: var(--webstudio-backround);
 }
-.container>.list {
+.strategy>.container>.list {
 
   display: flex;
   gap: 24px;
   padding-left: 156px;
   padding-right: 156px;
-  
-  
   list-style: none;
 }
+ .visually-hidden {
+   position: absolute;
+   clip: rect(0 0 0 0);
+   width: 1px;
+   height: 1px;
+   margin: -1;
+ }
 .orem-list{
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  
     display: flex;
+    flex-basis: calc((100% - 3 * 24px) / 4);
     gap: 24px;
-    justify-content: center;
+    justify-content: end;
     padding-left: 156px;
     padding-right: 156px;
     list-style: none;
