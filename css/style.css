@@ -531,7 +531,7 @@ padding-bottom: 0px;
   list-style: none;
   
 }
-.pictures>.container>.list-finish>.piktures-list>a{
+.piktures-list:first-child{
   width: calc((100% - 48px) / 3);
 }
 /*.piktures-link{
