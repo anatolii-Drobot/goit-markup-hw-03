@@ -39,7 +39,7 @@ ul,
 ol {
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 0;
+  padding: 0;
 }
 
 img {
@@ -318,9 +318,9 @@ padding: 16px 32px;
 
 .orem-list{
     
-    display: flex;
-  width: calc((100% - 72px) / 4);
-  flex-basis: calc((100% - 3 * 24px) / 4)
+  display: flex;
+  width : calc((100% - 72px) / 4);
+  
  
    
    
