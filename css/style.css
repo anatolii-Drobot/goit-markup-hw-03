@@ -21,7 +21,7 @@ body{
   font-family: 'Roboto', sans-serif;
   color: var(--fazer-litl-text);
   background-color:var(--button-stail-color-3);
-  overflow: auto;
+ 
 }
 
 h1,
@@ -32,7 +32,7 @@ h5,
 h6,
 p {
   margin-top: 0;
-    margin-bottom: 0;
+  margin-bottom: 0;
     
 }
 ul,
@@ -53,14 +53,25 @@ img {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
 
+
+
+
+
+
+
+
 /* HEADER 1-2*/
+
+
+
+
+
 
 
 
@@ -69,6 +80,7 @@ nav>.list>.link {
   text-transform: none;
   padding: 24px 0 24px;
 }
+/* л   о    г   о      т     и      п     */
 .list-studio {
   font-weight: 500;
   font-size: 16px;
@@ -94,20 +106,12 @@ nav>.list>.link {
 .list-studio a:focus {
   color: var(--button-stail-color-2);
 }
-
-
-
-
-
-
-
-
-
-
-
 header>nav>ul>li .link {
   text-transform: none;
 }
+
+
+
 
 
 
@@ -123,7 +127,8 @@ header>nav>ul>li .link {
   max-height: 72px;
   margin-left: auto;
   margin-right: auto;
-}
+}    
+  /* о   б   г  о  р    д   к   а     голови*/
 .arizona-hed>.container{
   display: flex;
   width: 1158px;
@@ -149,6 +154,8 @@ header>div>nav>a {
   padding-bottom: 24px;
   padding-top: 24px;
 }
+
+
 /*Навігація*/
 .arizona-nav>.list {
   display: flex;
@@ -249,9 +256,6 @@ address>ul>li>.link:focus {
 /* Тіло індексу Main */
 
 
-
-
-
 .effective{ 
 
 padding: 188px 0 188px;
@@ -284,6 +288,8 @@ padding: 16px 32px;
 }
 
 
+/* s e c t i o n (2)*/
+
 
 
 .strategy {
@@ -301,7 +307,7 @@ padding: 16px 32px;
   letter-spacing: 0.02em;
   color: var(--webstudio-backround);
 }
-.strategy>.container>.list {
+.strategy>.container>ul {
 
   display: flex;
   gap: 24px;
@@ -311,15 +317,15 @@ padding: 16px 32px;
 }
 
 .orem-list{
-  
+    
     display: flex;
-    gap: 24px;
-    justify-content: end;
-    padding-left: 156px;
-    padding-right: 156px;
-    list-style: none;
+  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4)
+ 
+   
    
 }
+
 
 
 
