@@ -294,6 +294,7 @@ padding: 16px 32px;
   padding: 120px 0 120px;
 }
 .text-main{
+  display: flex;
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -301,20 +302,21 @@ padding: 16px 32px;
   letter-spacing: 0.02em;
   color: var(--webstudio-backround);
 }
-..container>.list {
+.container>.list {
 
   display: flex;
- 
   gap: 24px;
   padding-left: 156px;
   padding-right: 156px;
+  
+  
   list-style: none;
 }
 .orem-list{
- 
+  flex-basis: calc((100% - 3 * 24px) / 4);
     display: flex;
-    flex-basis: calc((100% - 3 * 24px) / 4);
     gap: 24px;
+    justify-content: center;
     padding-left: 156px;
     padding-right: 156px;
     list-style: none;
