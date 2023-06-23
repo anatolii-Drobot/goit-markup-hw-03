@@ -240,7 +240,13 @@ address>ul>li>.link:focus {
 /* Тіло індексу Main */
 
 
-
+ .visually-hidden{
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1;
+}
 
 img{
   display: block;
@@ -363,6 +369,7 @@ padding: 16px 32px;
 
 .team>.container>.list>.lorem-list{
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
   list-style: none;
 }
 
