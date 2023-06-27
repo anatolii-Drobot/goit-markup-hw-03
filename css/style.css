@@ -515,10 +515,12 @@ padding-bottom: 0px;
 
 
 
-
+.pictures-portfolio{
+  padding: 96px 0 120px 0;
+}
  
 
-.piktures>.container>.list-start>.button-list {
+.piktures-portfolio>.container>.list-start>.button-list {
 
   list-style: none;
   padding: 12px 24px 12px;
