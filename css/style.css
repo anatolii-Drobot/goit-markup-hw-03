@@ -266,16 +266,7 @@ margin-right: auto;
 background-color: var(--webstudio-backround);
 }
 
-.effective>.container>.non-button{
-  display: flex;
-flex-direction: row-reverse;
-align-items: flex-start;
-width: auto;
-margin-left: 640px;
-margin-right: 0px;
-margin-top: 48px;
-padding: 16px 32px;
-}
+
 .effective-non {
   max-width: 496px;
   margin-left: auto;
