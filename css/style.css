@@ -371,7 +371,7 @@ width: calc((100% - 72px) / 4);
 
 
 
-/* z a g o l o v o k 4   section*/
+/*  4   section*/
 
 
 
@@ -398,31 +398,24 @@ width: calc((100% - 72px) / 4);
 .strategy-name {
   text-align: center;
   margin-bottom: 8px;
-}
-
-
+}  
 .list .lorem-list{
-width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
  list-style: none;
   background-color: var(--button-stail-color-3);
   border-radius: 0px 0px 4px 4px;
 }
-
 .team>div>.list {
- 
-  
   display: flex;
   gap: 24px;
+  padding-left: 156px;
   padding-right: 156px;
   padding-top: 120px;
-  padding-left: 152px;
   border-radius: 0px 0px 4px 4px;
   list-style: none;
-
 }
 .team-team {
   padding: 32px 16px 32px;
-
 }
 
 
@@ -446,22 +439,18 @@ width: calc((100% - 72px) / 4);
 }
 
 
+.piktures>.container {
 
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.piktures-list link {
+  text-decoration: none;
+}
 
 
 
@@ -587,24 +576,10 @@ padding-bottom: 0px;
 
 
 
-.pictures {
-  padding: 96px 0 120px 0;
-
-}
 
 
-.piktures>.container{
- 
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-  margin-bottom: 8px;
 
-}
 
-.piktures-list link {
-  text-decoration: none;
-}
 
 
 .h-2-teg-portfolio {
