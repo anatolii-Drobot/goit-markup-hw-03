@@ -403,10 +403,12 @@ width: calc((100% - 72px) / 4);
   list-style: none;
 }
 .list .lorem-list{
-  flex-basis: calc((100% - 72px) / 4);
- list-style: none;
+  list-style: none;
   background-color: var(--button-stail-color-3);
   border-radius: 0px 0px 4px 4px;
+}
+.list .lorem-list{
+width: calc((100% - 72px) / 4);
 }
 
 .team-team {
