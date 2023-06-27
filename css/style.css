@@ -343,6 +343,9 @@ width: calc((100% - 72px) / 4);
   letter-spacing: 0.02em;
   color: var(--fazer-litl-text);
 }
+.team-team .our{
+  text-align: center;
+}
 .our .list {
   list-style: none;
 }
