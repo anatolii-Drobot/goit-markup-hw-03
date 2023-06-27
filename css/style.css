@@ -372,12 +372,20 @@ width: calc((100% - 72px) / 4);
 
 
 /* z a g o l o v o k 4   section*/
+
+
+
 .team {
   background-color: var(--button-stail-color);
   padding: 120px 0 120px;
-
 }
-
+.team .container{
+    min-width: 1156px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 8px;
+      
+}
 .strategy-team {
   font-size: 36px;
   line-height: 1.11;
@@ -393,8 +401,8 @@ width: calc((100% - 72px) / 4);
 }
 
 
-.lorem-list{
-
+.list .lorem-list{
+width: calc((100% - 72px) / 4);
  list-style: none;
   background-color: var(--button-stail-color-3);
   border-radius: 0px 0px 4px 4px;
@@ -405,13 +413,16 @@ width: calc((100% - 72px) / 4);
   
   display: flex;
   gap: 24px;
+  padding-right: 156px;
   padding-top: 120px;
   padding-left: 152px;
   border-radius: 0px 0px 4px 4px;
   list-style: none;
+
 }
-.list .lorem-list{
-width: calc((100% - 72px) / 4);
+.team-team {
+  padding: 32px 16px 32px;
+
 }
 
 
@@ -490,10 +501,7 @@ padding-bottom: 0px;
 
 
 
-.team-team {
-  padding: 32px 16px 32px;
 
-}
 
 
 .list-finish {
