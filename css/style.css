@@ -406,11 +406,12 @@ width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   list-style: none;
 }
-.team>.container>.ul>.list{
+ul .list-team{
+  
   list-style: none;
   background-color: var(--button-stail-color-3);
   border-radius: 0px 0px 4px 4px;
-  flex-basis: calc((100% - 48px) / 3);
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 
