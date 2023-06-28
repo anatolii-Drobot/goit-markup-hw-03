@@ -397,7 +397,7 @@ width: calc((100% - 72px) / 4);
   text-align: center;
   margin-bottom: 8px;
 }  
-.team>div>.list {
+.team>div>ul {
   display: flex;
   gap: 24px;
   padding-left: 156px;
@@ -406,14 +406,12 @@ width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   list-style: none;
 }
-.list .lorem-list{
+.team>.container .ul .list{
   list-style: none;
   background-color: var(--button-stail-color-3);
   border-radius: 0px 0px 4px 4px;
 }
-.list .lorem-list{
-width: calc((100% - 72px) / 4);
-}
+
 
 .team-team {
   padding: 32px 16px 32px;
@@ -440,7 +438,7 @@ width: calc((100% - 72px) / 4);
 }
 
 
-.piktures>.container {
+.piktures .container {
 
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
@@ -449,7 +447,7 @@ width: calc((100% - 72px) / 4);
 
 }
 
-.piktures-list link {
+.piktures-list .link {
   text-decoration: none;
 }
 
