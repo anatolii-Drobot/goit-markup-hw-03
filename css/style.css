@@ -405,13 +405,14 @@ width: calc((100% - 72px) / 4);
   padding-top: 120px;
   border-radius: 0px 0px 4px 4px;
   list-style: none;
+  width: calc((100% - 3 * 24px) / 4);
 }
 ul .list-team{
   
   list-style: none;
   background-color: var(--button-stail-color-3);
   border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 3 * 24px) / 4);
+  
 }
 
 
