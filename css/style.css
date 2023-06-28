@@ -318,7 +318,7 @@ width: 1158;
   margin-right: auto;
   margin-bottom: 8px;
   padding: 120px 0 120px;
-  
+  width: calc((100% - 72px) / 4);
 }
 
 .strategy>.container>.list {
@@ -326,6 +326,7 @@ width: 1158;
   gap: 24px;
   min-width: 1156px;
   list-style: none;
+  width: calc((100% - 72px) / 4);
 }
 
 .list .orem-list {
@@ -333,6 +334,7 @@ width: calc((100% - 72px) / 4);
 
 }
 .text-main {
+  width: calc((100% - 72px) / 4);
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -341,6 +343,7 @@ width: calc((100% - 72px) / 4);
   color: var(--webstudio-backround);
 }
 .our {
+  width: calc((100% - 72px) / 4);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
