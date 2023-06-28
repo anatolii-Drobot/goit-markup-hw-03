@@ -407,7 +407,7 @@ width: calc((100% - 72px) / 4);
   list-style: none;
  
 }
- ul .list-team {
+ .list .list-team {
   width: calc((100% - 3 * 24px) / 4);
   list-style: none;
   background-color: var(--button-stail-color-3);
