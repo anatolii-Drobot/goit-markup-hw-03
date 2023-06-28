@@ -563,7 +563,8 @@ padding-bottom: 0px;
   flex-wrap: wrap;
   list-style: none;
 }
-.list-finish .piktures-list {
+.list-finish  .piktures-list 
+{
 width: calc((100% - 48px) / 3);
 }
 
