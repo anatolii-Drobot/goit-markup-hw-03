@@ -397,7 +397,7 @@ width: calc((100% - 72px) / 4);
   text-align: center;
   margin-bottom: 8px;
 }  
-.team>div>ul {
+.team>div>.list {
   display: flex;
   gap: 24px;
   padding-left: 156px;
