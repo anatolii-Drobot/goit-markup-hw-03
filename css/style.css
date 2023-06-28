@@ -392,8 +392,7 @@ flex-basis: calc((100% - 72px) / 4);
   color: var(--webstudio-backround);
 
 }
-.picture>div>.list {
-   
+.picture>div>.sos-list {
   display: flex;
   gap: 24px;
   list-style: none;
@@ -402,7 +401,7 @@ flex-basis: calc((100% - 72px) / 4);
 
 }
 
-.picture>.container>.list>.kontakt-list {
+.picture>.container>.sos-list>.kontakt-list {
   display: flex;
   flex-basis: calc((100% - 48px) / 3);
 }
