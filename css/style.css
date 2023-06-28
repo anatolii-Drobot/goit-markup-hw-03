@@ -399,12 +399,10 @@ flex-basis: calc((100% - 72px) / 4);
   padding-left: 156px;
   padding-right: 156px;
 }
- .kont-list{
-  width: calc((100% - 48px) / 3);
-}
 
 
 .sos-list .kont-list{
+  display: block;
 width: calc((100% - 48px) / 3);
 }
 .piktures-list .link {
