@@ -402,17 +402,8 @@ flex-basis: calc((100% - 72px) / 4);
  .kont-list{
   width: calc((100% - 48px) / 3);
 }
-.sos-list>.kont-list {
-  width: calc((100% - 48px) / 3);
-}
-.section>div>.sos-list .kont-list {
-width: calc((100% - 48px) / 3);
- 
-}
-.section>div>.sos-list>.kont-list {
-  width: calc((100% - 48px) / 3);
 
-}
+
 .sos-list .kont-list{
 width: calc((100% - 48px) / 3);
 }
