@@ -406,7 +406,7 @@ width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   list-style: none;
 }
-.team>.container>.ul .list{
+.team>.container>.ul>.list{
   list-style: none;
   background-color: var(--button-stail-color-3);
   border-radius: 0px 0px 4px 4px;
