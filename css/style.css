@@ -36,6 +36,7 @@ p {
     
 }
 ul
+li
  {
   margin-top: 0;
   margin-bottom: 0;
@@ -80,7 +81,7 @@ nav>.list>.link {
   text-transform: none;
   padding: 24px 0 24px;
 }
-/* л   о    г   о      т     и      п     */
+/* л   о   г   о   т   и   п */
 .list-studio {
   font-weight: 500;
   font-size: 16px;
@@ -128,7 +129,7 @@ header>nav>ul>li .link {
   margin-left: auto;
   margin-right: auto;
 }    
-  /* о   б   г  о  р    д   к   а     голови*/
+  /* о  б  г  о  р  д  к  а     голови*/
 .arizona-hed .container{
   display: flex;
   width: 1158px;
@@ -377,7 +378,7 @@ width: calc((100% - 72px) / 4);
   padding: 120px 0 120px;
 }
 .team .container{
-    min-width: 1158px;
+     min-width: 1158px;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 8px;
@@ -396,7 +397,7 @@ width: calc((100% - 72px) / 4);
   text-align: center;
   margin-bottom: 8px;
 }  
-.team>div>.list {
+.team>div .list {
   display: flex;
   gap: 24px;
   padding-left: 156px;
@@ -404,10 +405,10 @@ width: calc((100% - 72px) / 4);
   padding-top: 120px;
   border-radius: 0px 0px 4px 4px;
   list-style: none;
-  width: calc((100% - 3 * 24px) / 4);
+ 
 }
-ul .list-team{
-  
+ ul .list-team {
+  width: calc((100% - 3 * 24px) / 4);
   list-style: none;
   background-color: var(--button-stail-color-3);
   border-radius: 0px 0px 4px 4px;
