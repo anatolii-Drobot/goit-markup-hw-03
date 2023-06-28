@@ -398,12 +398,24 @@ flex-basis: calc((100% - 72px) / 4);
   list-style: none;
   padding-left: 156px;
   padding-right: 156px;
-
+flex-basis: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 3 * 16px) / 3);
+  width: calc((100% - 3 * 16px) / 3);
 }
 
 .picture>.container>.sos-list>.kontakt-list {
   display: flex;
   flex-basis: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 3 * 16px) / 3);
+  width: calc((100% - 3 * 16px) / 3);
+}
+.sos-list .kontakt-list{
+  flex-basis: calc((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 3 * 16px) / 3);
+    width: calc((100% - 3 * 16px) / 3);
 }
 .piktures-list .link {
   text-decoration: none;
