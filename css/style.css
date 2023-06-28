@@ -397,7 +397,7 @@ width: calc((100% - 72px) / 4);
   text-align: center;
   margin-bottom: 8px;
 }  
-.team>div .list {
+.team>div .list-ul {
   display: flex;
   gap: 24px;
   padding-left: 156px;
@@ -407,8 +407,8 @@ width: calc((100% - 72px) / 4);
   list-style: none;
  
 }
- .list .list-team {
-  width: calc((100% - 3 * 24px) / 4);
+ .list-ul>.list-team {
+  width: calc((100% - 72px) / 4);
   list-style: none;
   background-color: var(--button-stail-color-3);
   border-radius: 0px 0px 4px 4px;
