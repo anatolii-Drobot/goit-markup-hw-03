@@ -130,7 +130,7 @@ header>nav>ul>li .link {
   margin-right: auto;
 }    
   /* о   б   г  о  р    д   к   а     голови*/
-.arizona-hed>.container{
+.arizona-hed .container{
   display: flex;
   width: 1158px;
   margin: 0 auto;
@@ -265,6 +265,10 @@ margin-left: auto;
 margin-right: auto;
 background-color: var(--webstudio-backround);
 }
+.effective .container{
+width: 1158;
+}
+
 
 
 .effective-non {
@@ -309,7 +313,7 @@ background-color: var(--webstudio-backround);
 }
 
 .strategy .container{
-  min-width: 1156px ;
+  min-width: 1158px ;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 8px;
@@ -374,7 +378,7 @@ width: calc((100% - 72px) / 4);
   padding: 120px 0 120px;
 }
 .team .container{
-    min-width: 1156px;
+    min-width: 1158px;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 8px;
@@ -505,7 +509,7 @@ padding-bottom: 0px;
   padding: 96px 0 120px 0;
 }
  .pictures-portfolio .container{
-    min-width: 1440px;;
+    min-width: 1158px;;
     margin-bottom: 8px;
  }
  .list-start {
@@ -567,12 +571,11 @@ padding-bottom: 0px;
 .list-finish .list 
 {
 display: flex;
-justify-content: center;
 width: calc((100% - 48px) / 3);
 }
+
 .list-finish>.list a{
   border: 1px solid #e7e9fc;
-  
 }
 
 .list-3 {
