@@ -67,7 +67,7 @@ img {
 
 
 
-/* HEADER 1-2*/
+
 
 
 
@@ -81,7 +81,7 @@ nav>.list>.link {
   text-transform: none;
   padding: 24px 0 24px;
 }
-/* л   о   г   о   т   и   п */
+
 .list-studio {
   font-weight: 500;
   font-size: 16px;
@@ -120,7 +120,7 @@ header>nav>ul>li .link {
 
 
 
-/**/
+
 .arizona-hed {
   border-bottom: 1px solid #e7e9fc;
   display: block;
@@ -129,7 +129,7 @@ header>nav>ul>li .link {
   margin-left: auto;
   margin-right: auto;
 }    
-  /* о  б  г  о  р  д  к   */
+ 
 .arizona-hed .container{
   display: flex;
   width: 1158px;
@@ -157,7 +157,6 @@ header>div>nav>a {
 }
 
 
-/*Навігація*/
 .arizona-nav>.list {
   display: flex;
   gap: 40px;
@@ -188,7 +187,6 @@ header>div>nav>a {
 
 
 
-/*Навігація*/
 
 
 
@@ -236,7 +234,7 @@ nav .list {
 .link {
   text-decoration: none;
 }
-/* ADDRESS*/
+
 
 address>ul>li>.link {
   font-size: 16px;
@@ -254,9 +252,8 @@ address>ul>li>.link:focus {
 
 
 
-/* Тіло індексу Main */
 
-/*1 section*/
+
 .effective{ 
 
 padding: 188px 0 188px;
@@ -305,7 +302,7 @@ width: 1158;
   background-color: var(--button-stail-color-2);
 }
 
-/* s e c t i o n (2)*/
+
 
 
 .strategy{
