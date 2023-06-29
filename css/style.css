@@ -562,13 +562,11 @@ width: 1158;
 }
 .list-finish .list-portfolio
 {
-
+  
+border: 1px solid #e7e9fc;
 width: calc((100% - 48px) / 3);
 }
 
-.list-finish>.list a{
-  border: 1px solid #e7e9fc;
-}
 
 .list-3 {
   border: 1px solid #e7e9fc;
