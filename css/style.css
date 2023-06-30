@@ -505,7 +505,7 @@ width: 1158;
 
 
 
-.pictures-portfolio{
+.picture{
   padding: 96px 0 120px 0;
 }
  
@@ -549,7 +549,7 @@ width: 1158;
 }
 
 
-.pictures-portfolio>.container .finish{
+.picture>.container .finish{
   display: flex;
   row-gap: 48px;
   column-gap: 24px;
