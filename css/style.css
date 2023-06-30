@@ -544,7 +544,7 @@ width: 1158;
 }
 
 
-.list-finish {
+.finish {
   display: flex;
   row-gap: 48px;
   column-gap: 24px;
@@ -560,8 +560,8 @@ width: 1158;
   }
 
 
-.list-portfolio {
-  width:calc((100% - 48px) / 3);
+ .finish .portfolio {
+  width: calc((100% - 48px) / 3);
 }
 
 .list-3 {
