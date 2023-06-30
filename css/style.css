@@ -549,14 +549,13 @@ width: 1158;
 }
 
 
-.picture>.container .finish{
+.picture>.container .finish {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
   min-width: 1156px;
 }
-
 
 
 
