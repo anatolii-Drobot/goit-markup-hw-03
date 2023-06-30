@@ -551,15 +551,15 @@ width: 1158;
 
 .picture>.container .finish {
   display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
+  gap: 48px;
+  list-style: none;
   min-width: 1156px;
+  
 }
 
 
 
- .finish .portfolio {
+ .finish .portfolio{
   width: calc((100% - 48px) / 3);
 }
 
